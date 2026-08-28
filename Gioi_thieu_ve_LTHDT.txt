@@ -1,0 +1,42 @@
+BÀI LÀM: LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG 
+Người thực hiện: Cường
+I. TỔNG QUAN VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
+1. Bối cảnh và Sự phát triển các phương pháp lập trình
+ Lập trình tuyến tính:
+  - Tư duy theo lối tuần tự, đơn luồng.
+  - Ưu điểm: Đơn giản, dễ viết, dễ hiểu cho các chương trình nhỏ.
+  - Nhược điểm: Không thể dùng trước các ứng dụng phức tạp và quy mô lớn.
+ Lập trình cấu trúc:
+  - Chia nhỏ chương trình thành các hàm/chương trình con (Công thức: Chương trình = Cấu trúc dữ liệu + Giải thuật).
+  - Ưu điểm: Chương trình dễ hiểu, dễ theo dõi, tư duy giải thuật rõ ràng.
+  - Nhược điểm: Dữ liệu và hàm tách rời, không hỗ trợ tái sử dụng mã nguồn, không phù hợp với các phần mềm quy mô lớn.
+2. Sự ra đời của Phương pháp Hướng đối tượng 
+Mục tiêu: Khắc phục triệt để nhược điểm của lập trình cấu trúc thông qua việc đóng gói dữ liệu và tăng khả năng tái sử dụng mã nguồn.
+ Quy trình phát triển một phần mềm hướng đối tượng:
+Mô tả bài toán - Đặc tả yêu cầu - Trích chọn đối tượng - Mô hình hóa lớp đối tượng - Thiết kế tổng quan - Thiết kế chi tiết.
+II. CÁC KHÁI NIỆM NỀN TẢNG: ĐỐI TƯỢNG VÀ LỚP ĐỐI TƯỢNG
+1. Đối tượng 
+ Định nghĩa: Các thực thể tồn tại và hoạt động trong hệ thống khi chương trình chạy (Ví dụ: Một chiếc xe hơi Ford màu trắng, giá 5.000$).
+ Cấu trúc một đối tượng (3 yếu tố cốt lõi):
+  - Định danh: Tên gọi riêng để phân biệt đối tượng.
+  - Trạng thái: Bao gồm các thuộc tính/dữ liệu của đối tượng.
+  - Hành vi: Các hoạt động, tương tác mà đối tượng có thể thực hiện.
+2. Lớp đối tượng 
+ Định nghĩa: Là một khái niệm trừu tượng dùng để chỉ một tập hợp các đối tượng có mặt trong hệ thống (Ví dụ: Lớp "Xe hơi").
+ Mối quan hệ giữa Lớp và Đối tượng:
+  - Lớp là định nghĩa trừu tượng - Đối tượng là một thể hiện cụ thể của lớp.
+  - Thuộc tính của Lớp - Quy định Trạng thái của Đối tượng.
+  - Phương thức của Lớp - Quy định Hành vi của Đối tượng.
+ Các dạng cấu trúc Lớp:
+  - Lớp có cả thuộc tính và phương thức (Dạng phổ biến nhất).
+  - Lớp chỉ có thuộc tính / Lớp chỉ có phương thức.
+  - Lớp trừu tượng: Lớp định nghĩa khung, không tạo đối tượng trực tiếp.
+III. TÍNH ĐÓNG GÓI VÀ PHẠM VI TRUY CẬP 
+1. Tính đóng gói 
+ Khái niệm: Là cơ chế gom nhóm dữ liệu (thuộc tính) và các phương thức xử lý dữ liệu đó vào trong một lớp, đồng thời che giấu các chi tiết cài đặt bên trong đối tượng đối với bên ngoài.
+2. Phân định phạm vi truy cập: Private và Public
+ Thành phần Private (Chỉ dùng nội bộ):
+  - Bản chất: Vùng dữ liệu riêng tư, ngăn chặn tuyệt đối sự truy cập hay chỉnh sửa trực tiếp từ bên ngoài lớp.
+  - Thành phần áp dụng: Toàn bộ các thuộc tính dữ liệu và các phương thức đệm/trung gian tính toán nội bộ. Thành phần Public (Giao diện công khai):
+  - Bản chất: Vùng giao tiếp mở, cho phép các chương trình hoặc đối tượng khác truy cập và sử dụng.
+  - Thành phần áp dụng: Các phương thức truy xuất dữ liệu  và các phương thức cung cấp chức năng/dịch vụ cho bên ngoài.
