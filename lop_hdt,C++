@@ -1,0 +1,53 @@
+#Lớp và đối tượng:
+lớp là sự mở rộng của các cấu trúc của C và bản ghi của Passcal
+cấu trúc:
+class Ten_lop {
+  //khai báo các thành phần dữ liệu
+  //khai báo các phương thức
+};
+Biến, mảng đối tượng
+Khai báo:
+Ten_lop ds_bien;
+Ten_lop ds_mang;
+Con trỏ đối tượng:
+Khai báo:
+Ten_lop ds_con trỏ;
+Con trỏ this: _ This là con trỏ đặc biệt, đóng vai trò là tham số thứ nhất của phương thức
+              _ Tham số truyền cho con trỏ this là địa chỉ của đối tượng đi kèm với phương thức trong lời gọi phương thức
+              _ Các tham số khác của phương thức được khai báo như trong các hàm
+Hàm: _ Phạm vi của toàn bộ chương trình, phương thức có thể sử dụng hàm
++ Hàm bạn: Dùng từ khóa friend để khai báo
++ Hàm tạo: 
++ Hàm tạo sao chép
++ Hàm hủy
+_ Các giới hạn của chồng toán tử
+_ Các hàm toán tử
+#Các mở rộng của C++
+_ Nhập xuất: sử dụng cin/count để nhập/in từ thư viện iostream.h
+_ Cách chuyển đổi dữ liệu: _kiểu( biểu thức )
+_ Vị trí khai báo biến: Cho phép khai báo linh hoạt bất kỳ vị trí nào trong 1 phạm vi cho trước
+_ Hằng định kiểu: 
+-Const kiểu Tên= biểu thức; ( const int max=11; )
+-Struct: typedef struct {
+                  int x,y;
+                  }z;
+         const z mau={1,2,3,4};
+struct, union: giống khai báo bằng lệnh typedef
+_Toán tử định vị phạm vi: Dùng để truy xuất 1 phần tử bị che khuất bởi phạm vi hiện thời. Dùng để phân biệt các thành phần trùng tên của các lớp cơ sở
+_ Toán tử new, delete:
+Cú pháp: 
++ new Tên_kiểu
+  new (Tên_kiểu)
+  new Tên_kiểu  giá_trị_khởi_tạo
+  new (Tên_kiểu) giá_trị_khởi_tạo
++ delete con_trỏ
+  delete [] con_trỏ
+_ Hàm inline:
+  inline kiểu tên_hàm
+          {
+        //thân hàm
+          }
+hàm phải được định nghĩa trước khi sử dụng
+_ Tham số giá trị mặc định
+_ Biến tham chiếu
+_ Chồng hàm, chồng toán tử,...
